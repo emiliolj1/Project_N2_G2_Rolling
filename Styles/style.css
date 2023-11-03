@@ -1,6 +1,10 @@
+:root{
+  --fondoNavbar: rgba(89, 20, 201);
+  --fondoPagina: rgba(59, 19, 255); 
+}
+
 .navColor{
-  background-color: rgba(89, 20, 201);
-  ;
+  background-color:var(--fondoNavbar);
 }
 
 .title{
