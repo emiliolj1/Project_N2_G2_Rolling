@@ -23,5 +23,3 @@ const createUser = () => {
     window.location.href= '../index.html'
   })
 } 
-
-//no registra usuarios, necesario ver.
