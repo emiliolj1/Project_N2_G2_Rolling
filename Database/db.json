@@ -13,6 +13,20 @@
       "password": "asdads",
       "role": "client",
       "id": 2
+    },
+    {
+      "name": "Emilio",
+      "email": "lunaemilio269@gmail.com",
+      "password": "river2018",
+      "role": "client",
+      "id": 3
+    },
+    {
+      "name": "Nico",
+      "email": "nico123@gmail.com",
+      "password": "nico123",
+      "role": "client",
+      "id": 4
     }
   ]
 }
