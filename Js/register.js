@@ -3,7 +3,7 @@ const createUser = () => {
   const email = document.getElementById('Email').value
   const password = document.getElementById('Password').value
 
-  if (!nombre || !email || !password) {
+  if (!name || !email || !password) {
     alert("Faltan datos");
     return;
   }
@@ -19,7 +19,7 @@ const createUser = () => {
     headers: {
       'content-type': 'application/json; charset=UTF-8'
     }
-  }) .then(() => {
-    window.location.href= '../index.html'
   })
+  alert("Registro con exito")
+  window.location.href = '../index.html'
 } 
