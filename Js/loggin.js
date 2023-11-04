@@ -7,21 +7,17 @@ const loginUser = async () => {
   const result = await fetch ('http://localhost:3000/users')
   const users = await result.json()
   
-  const user = users.find (users => users.email === email)
+  const user = users.find (usuario => usuario.email === email)
   
   if(!user){
     alert('Los datos no coinciden')
   }
-  if(user.password === password){
+  if(user.password === password && user.name === name){
     localStorage.setItem ('role', user.role)
-    window.location.href = '../pages/registro.html'
+    window.location.href = '../index.html'
     alert('Usuario logueado')
-    window.location.href= 'index.html'
   } else {
-    alert ('Faltan datos o son incorrectos')
+    alert ('los datos son incorrectos')
   }  
 }
 
-//&& user.nombre === nombre && user.password === password
-//no puede checkear la similitud entre los datos, saltara directamente al primer alert
-//no registra usuarios, necesario ver.

@@ -1,5 +1,5 @@
 const createUser = () => {
-  const nombre = document.getElementById('nombre').value
+  const name = document.getElementById('nombre').value
   const email = document.getElementById('Email').value
   const password = document.getElementById('Password').value
 
@@ -11,7 +11,7 @@ const createUser = () => {
   fetch('http://localhost:3000/users',{
     method: 'POST',
     body: JSON.stringify({
-      nombre,
+      name,
       email,
       password,
       role:'client'
@@ -20,7 +20,7 @@ const createUser = () => {
       'content-type': 'application/json; charset=UTF-8'
     }
   }) .then(() => {
-    location.href= '../index.html'
+    window.location.href= '../index.html'
   })
 } 
 

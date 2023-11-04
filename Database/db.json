@@ -1,14 +1,14 @@
 {
   "users": [
     {
-      "nombre": "Marcelo",
+      "name": "Marcelo",
       "email": "marcstord@gmail.com",
       "password": "HOLA123",
       "role": "admin",
       "id": 1
     },
     {
-      "nombre": "fads",
+      "name": "Pato",
       "email": "pato@gmail.com",
       "password": "asdads",
       "role": "client",
