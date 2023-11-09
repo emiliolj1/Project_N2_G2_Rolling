@@ -28,5 +28,15 @@
       "role": "client",
       "id": 4
     }
+  ],
+  "games":[
+    {
+      "id": 1,
+      "title":"EA SPORTS FC™ 24",
+      "image":"",
+      "category":"sports, football",
+      "description":"EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
+      "state":true
+    }
   ]
 }
