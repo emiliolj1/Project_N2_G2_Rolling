@@ -1,0 +1,35 @@
+:root{
+  --fondoNavbar: rgba(89, 20, 201);
+  --fondoPagina: rgba(59, 19, 255); 
+}
+
+.navColor{
+  background-color:var(--fondoNavbar);
+}
+
+.title{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.card { 
+  display: flex;
+  width: 350px;
+  height: 450px;
+  margin: 2rem 1rem;
+  box-shadow: 2px 1px 15px -1px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+.card:hover {
+transform: scale(1.1);
+}
