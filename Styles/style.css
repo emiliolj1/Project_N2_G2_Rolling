@@ -1,6 +1,7 @@
 :root{
   --fondoNavbar: rgba(89, 20, 201);
-  --fondoPagina: rgba(59, 19, 255); 
+  /*--fondoPagina: rgba(59, 19, 255);*/
+  --fondoPagina: rgb(10, 0, 58);
 }
 
 .navColor{
@@ -9,4 +10,13 @@
 
 .title{
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+#cardGame{
+  background-color: black;
+  color: white;
+}
+
+.backMain{
+  background-color: var(--fondoPagina);
 }
