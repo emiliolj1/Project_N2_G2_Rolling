@@ -33,3 +33,12 @@ main {
 .card:hover {
 transform: scale(1.1);
 }
+.text{
+  color: rgba(89, 20, 201);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  text-align: center;
+
+}
+.text1{
+  text-align: center;
+}
