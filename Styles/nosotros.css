@@ -20,10 +20,11 @@ main {
 }
 .card { 
   display: flex;
-  width: 350px;
+  width: 330px;
   height: 450px;
   margin: 2rem 1rem;
   box-shadow: 2px 1px 15px -1px;
+  padding: 5px;
 }
 .card img {
   width: 100%;
