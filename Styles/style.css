@@ -1,7 +1,7 @@
 :root{
   --fondoNavbar: rgba(89, 20, 201);
   /*--fondoPagina: rgba(59, 19, 255);*/
-  --fondoPagina: rgb(10, 0, 58);
+  --fondoPagina: rgb(2, 0, 32);
 }
 
 .navColor{
@@ -13,7 +13,8 @@
 }
 
 #cardGame{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 2px 1px 15px 1px rgba(89, 20, 201);
   color: white;
 }
 
