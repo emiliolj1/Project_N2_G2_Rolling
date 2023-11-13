@@ -34,9 +34,17 @@
       "id": 1,
       "title":"EA SPORTS FC™ 24",
       "image":"",
+      "coverPage":"",
       "category":"sports, football",
       "description":"EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
-      "state":true
+      "publish":true,
+      "outstanding":false
+    },
+    {
+      "id":2,
+      "title":"Grand Theft Auto V"
+
     }
+    
   ]
 }
