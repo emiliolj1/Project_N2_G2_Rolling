@@ -20,4 +20,3 @@ const loginUser = async () => {
     alert ('los datos son incorrectos')
   }  
 }
-
