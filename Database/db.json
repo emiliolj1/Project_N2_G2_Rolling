@@ -33,8 +33,8 @@
     {
       "id": 1,
       "title":"EA SPORTS FC™ 24",
-      "image":"",
-      "coverPage":"",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg?t=1700043631",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_5320cc6b6c7fd39b41defe0570c3182df7065fd5.600x338.jpg?t=1700043631",
       "category":"sports, football",
       "description":"EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
       "publish":true,
@@ -42,8 +42,13 @@
     },
     {
       "id":2,
-      "title":"Grand Theft Auto V"
-
+      "title":"Grand Theft Auto V",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1695060909",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/271590/ss_3da42391c6317205177248dea0a48ced89998a8d.600x338.jpg?t=1695060909",
+      "category":"action, adventure",
+      "description":"Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
+      "publish":true,
+      "outstanding":false
     },
     {
       "id": 3,
