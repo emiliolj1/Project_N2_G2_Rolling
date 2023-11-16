@@ -28,8 +28,36 @@
     </header>
   </section>
 
+<!-- Modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Logueo Realizado</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Bienvenido de vuelta!, esperamos mucho por tu regreso.
+      </div>
+      <div class="modal-footer">
+        <a href="../index.html">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </a>
+        <a href="../index.html">
+          <button type="button" class="btn btn-primary">Ok Entendido!</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Loggin -->
-<section class="container justify-content-center align-items-center">
+<section class="container justify-content-center align-items-center" aria-labelledby="exampleModalLabel">
   <section class="justify-content-center my-2 py-2">
     <h2>Loguearse</h2>
     <form>
@@ -44,7 +72,7 @@
         <label for="exampleInputPassword1" class="form-label">Ingresar una Contraseña</label>
         <input type="password" class="form-control" id="passwordlogin" value="">
       </div>
-        <button type="button" class="btn btn-secondary" onclick="loginUser()">Loguearse</button>
+        <button type="button" class="btn btn-secondary" onclick="loginUser()" data-bs-toggle="modal" data-bs-target="#exampleModal">Loguearse</button>
     </form>
   </section>
 </section>
