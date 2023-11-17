@@ -20,6 +20,6 @@ const createUser = () => {
       'content-type': 'application/json; charset=UTF-8'
     }
   })
-  alert("Registro con exito")
-  window.location.href = '../index.html'
+  const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {})
+    myModal.show()
 } 
