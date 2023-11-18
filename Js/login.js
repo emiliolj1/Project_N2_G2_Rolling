@@ -1,4 +1,5 @@
-const loginUser = async (e) => {
+const loginUser = async () => {
+  
   const name = document.getElementById('nombre').value
   const email = document.getElementById('emailLogin').value
   const password = document.getElementById('passwordlogin').value

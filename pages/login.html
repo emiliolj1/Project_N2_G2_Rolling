@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <title>Document</title>
+  <title>Login</title>
 </head>
 <body>
 <!-- Navbar -->
@@ -30,29 +30,29 @@
 <section class="container justify-content-center align-items-center">
   <section class="justify-content-center my-2 py-2">
     <h2>Loguearse</h2>
-    <form>
+    <form onsubmit="loginUser()">
       <div class="mb-3">
         <label class="form-label">Ingresar un nombre</label>
-        <input type="" class="form-control" id="nombre" value="" maxlength="16" minlength="4" >
+        <input type="" class="form-control" id="nombre" value="" maxlength="16" minlength="4" required>
         <div id="passwordHelpBlock" class="form-text">
           Tu nombre debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
         </div>
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Ingresar un Email</label>
-        <input type="email" class="form-control" id="emailLogin" value="" maxlength="25" minlength="4">
+        <input type="email" class="form-control" id="emailLogin" value="" maxlength="25" minlength="4" required>
         <div id="passwordHelpBlock" class="form-text">
           Tu email debe de tener un minimo de 4 y un maximo de 25 caracteres. No debe contener espacios o emojis
         </div>
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Ingresar una Contraseña</label>
-        <input type="password" class="form-control" id="passwordlogin" value="" maxlength="16" minlength="4">
+        <input type="password" class="form-control" id="passwordlogin" value="" maxlength="16" minlength="4" required>
         <div id="passwordHelpBlock" class="form-text">
           Tu contraseña debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
         </div>
       </div>
-      <button type="button" class="btn btn-secondary" onclick="loginUser()">Loguearse</button>
+      <button type="submit" class="btn btn-secondary">Loguearse</button>
     </form>
   </section>
 </section>
