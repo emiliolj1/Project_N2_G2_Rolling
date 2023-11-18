@@ -10,28 +10,51 @@ const loginUser = async () => {
   
   const user = users.find (usuario => usuario.email === email)
   
-  if(!user){
-    alert('Por favor complete todos los campos')
-  } else if (user.password === password && user.name === name) {
+
+  if (!user) {
+    alert('Por favor complete todos los campos');
+    return; // Termina la función si no hay usuario
+  }
+
+  if (user.password === password && user.name === name) {
     localStorage.setItem('role', user.role);
 
-    if (user.role === 'admin') {
-      const myModalAdmin = new bootstrap.Modal(document.getElementById('ModalAdmin'), {
-        backdrop: true,
-        keyboard: true,
-        focus: true
-      });
-    } else {
-      const myModalFuncional = new bootstrap.Modal(document.getElementById('ModalFuncional'), {
-        backdrop: true,
-        keyboard: true,
-        focus: true
-      });
-      myModalFuncional.show();
+    const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {});
+    myModal.show();
+
+    const roleUser = localStorage.getItem('role'); // Corregido: 'role' en lugar de role
+    if (roleUser === 'admin') {
+      const adminModal = new bootstrap.Modal(document.getElementById('Modaladmin'), {});
+      adminModal.show();
     }
   } else {
     alert('Los datos son incorrectos');
   }
+
+
+
+  // if(!user){
+  //   alert('Por favor complete todos los campos')
+  // } else if (user.password === password && user.name === name) {
+  //   localStorage.setItem('role', user.role);
+
+  //   if (user.role === 'admin') {
+  //     const myModalAdmin = new bootstrap.Modal(document.getElementById('ModalAdmin'), {
+  //       backdrop: true,
+  //       keyboard: true,
+  //       focus: true
+  //     });
+  //   } else {
+  //     const myModalFuncional = new bootstrap.Modal(document.getElementById('ModalFuncional'), {
+  //       backdrop: true,
+  //       keyboard: true,
+  //       focus: true
+  //     });
+  //     myModalFuncional.show();
+  //   }
+  // } else {
+  //   alert('Los datos son incorrectos');
+  // }
   
   
   // if(user.password === password && user.name === name){
