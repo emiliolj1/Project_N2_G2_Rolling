@@ -12,13 +12,40 @@ const loginUser = async () => {
   
   if(!user){
     alert('Por favor complete todos los campos')
-  }
-  if(user.password === password && user.name === name){
-    localStorage.setItem ('role', user.role)
-    const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {})
-    myModal.show()
+  } else if (user.password === password && user.name === name) {
+    localStorage.setItem('role', user.role);
+
+    if (user.role === 'admin') {
+      const myModalAdmin = new bootstrap.Modal(document.getElementById('ModalAdmin'), {
+        backdrop: true,
+        keyboard: true,
+        focus: true
+      });
+    } else {
+      const myModalFuncional = new bootstrap.Modal(document.getElementById('ModalFuncional'), {
+        backdrop: true,
+        keyboard: true,
+        focus: true
+      });
+      myModalFuncional.show();
+    }
   } else {
-    alert ('los datos son incorrectos')
-  }  
-}
+    alert('Los datos son incorrectos');
+  }
+  
+  
+  // if(user.password === password && user.name === name){
+  //   localStorage.setItem ('role', user.role)
+  //   const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {})
+  //   myModal.show()
+  // } else {
+  //   alert ('los datos son incorrectos')
+  // } 
+  
+  // const roleuser = localStorage.getItem(role)
+  // if (roleuser === 'admin'){
+  //   const myModal = new bootstrap.Modal(document.getElementById('Modaladmin'), {})
+  //   myModal.show()
+  // }
+};
 

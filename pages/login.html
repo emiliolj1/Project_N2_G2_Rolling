@@ -30,7 +30,7 @@
 <section class="container justify-content-center align-items-center">
   <section class="justify-content-center my-2 py-2">
     <h2>Loguearse</h2>
-    <form onsubmit="loginUser()">
+    <form>
       <div class="mb-3">
         <label class="form-label">Ingresar un nombre</label>
         <input type="" class="form-control" id="nombre" value="" maxlength="16" minlength="4" required>
@@ -52,7 +52,7 @@
           Tu contraseña debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
         </div>
       </div>
-      <button type="submit" class="btn btn-secondary">Loguearse</button>
+      <button type="button" class="btn btn-secondary" onclick="loginUser()">Loguearse</button>
     </form>
   </section>
 </section>
@@ -76,6 +76,29 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="Modaladmin">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5">Logueo Realizado</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¡Bienvenido de vuelta!, esperamos mucho por tu regreso.
+      </div>
+      <div class="modal-footer">
+        <a href="">
+          <button type="button" class="btn btn-primary">Ir a la pagina de administracion</button>
+        </a>
+        <a href="../index.html">
+          <button type="button" class="btn btn-primary">Ir a la pagina Principal</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- footer -->
 <footer class="navColor py-3 pt-4 px-4 pt-md-5 border-top bottom-0 align-items-center w-100">
