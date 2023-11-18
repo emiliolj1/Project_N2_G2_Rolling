@@ -29,7 +29,7 @@
       "id": 4
     }
   ],
-  "games":[
+  "games": [
     {
       "id": 1,
       "title":"EA SPORTS FC™ 24",
@@ -52,114 +52,113 @@
     },
     {
       "id": 3,
-      "title":"DARK SOULS™: REMASTERED",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/570940/ss_626cc310dc9ac7fb146011582c864a35e5f3e381.600x338.jpg?t=1682652141",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/570940/header.jpg?t=1682652141",
-      "category":"Adventure, Hard, Rol, Fantasy",
-      "description":"Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. Dark Souls Remastered incluye el juego principal y el contenido descargable 'Artorias of the Abyss'",
-      "published":true,
-      "outstanding":true
+      "title": "DARK SOULS™: REMASTERED",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/570940/ss_626cc310dc9ac7fb146011582c864a35e5f3e381.600x338.jpg?t=1682652141",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/570940/header.jpg?t=1682652141",
+      "category": "Adventure, Hard, Rol, Fantasy",
+      "description": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. Dark Souls Remastered incluye el juego principal y el contenido descargable 'Artorias of the Abyss'",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 4,
-      "title":"DARK SOULS™ II: Scholar of the First Sin",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/335300/header.jpg?t=1682651964",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/335300/ss_b9e5f5afb7358b242d4a669cf6f622de55edf1a0.600x338.jpg?t=1682651964",
-      "category":"Adventure, Hard, Rol, Fantasy",
-      "description":"DARK SOULS™ II: Scholar of the First Sin lleva la característica oscuridad de la franquicia y su apasionante jugabilidad a un nuevo nivel. Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables.",
-      "published":true,
-      "outstanding":true
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/335300/header.jpg?t=1682651964",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/335300/ss_b9e5f5afb7358b242d4a669cf6f622de55edf1a0.600x338.jpg?t=1682651964",
+      "category": "Adventure, Hard, Rol, Fantasy",
+      "description": "DARK SOULS™ II: Scholar of the First Sin lleva la característica oscuridad de la franquicia y su apasionante jugabilidad a un nuevo nivel. Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 5,
-      "title":"DARK SOULS™ III",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_da36c88ae35d4f20c9d221a79592b31c080521d2.116x65.jpg?t=1682651227",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1682651227",
-      "category":"Adventure, Hard, Rol, Fantasy",
-      "description":"Adéntrate en un universo lleno de enemigos y entornos descomunales, un mundo en ruinas en el que las llamas se están apagando. Los jugadores se sumergirán en la atmósfera épica de un mundo de oscuridad gracias a un juego más rápido y una intensidad de combate ampliada. Tanto fans como recién llegados disfrutarán de una acción gratificante y gráficos absorbentes. Solo quedan las ascuas... ¡Prepárate una vez más para sumergirte en la oscuridad!",
-      "published":true,
-      "outstanding":true
+      "title": "DARK SOULS™ III",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_da36c88ae35d4f20c9d221a79592b31c080521d2.116x65.jpg?t=1682651227",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1682651227",
+      "category": "Adventure, Hard, Rol, Fantasy",
+      "description": "Adéntrate en un universo lleno de enemigos y entornos descomunales, un mundo en ruinas en el que las llamas se están apagando. Los jugadores se sumergirán en la atmósfera épica de un mundo de oscuridad gracias a un juego más rápido y una intensidad de combate ampliada. Tanto fans como recién llegados disfrutarán de una acción gratificante y gráficos absorbentes. Solo quedan las ascuas... ¡Prepárate una vez más para sumergirte en la oscuridad!",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 6,
-      "title":"Valheim",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.600x338.jpg?t=1692705902",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg?t=1692705902",
-      "category":"Adventure, Survival, Rol",
-      "description":"Un brutal juego de supervivencia y exploración multijugador, ambientado en un purgatorio generado de forma procedural e inspirado en la cultura vikinga. ¡Lucha, construye y conquista tu viaje en una saga digna de la bendición de Odin!",
-      "published":true,
-      "outstanding":true
+      "title": "Valheim",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.600x338.jpg?t=1692705902",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg?t=1692705902",
+      "category": "Adventure, Survival, Rol",
+      "description": "Un brutal juego de supervivencia y exploración multijugador, ambientado en un purgatorio generado de forma procedural e inspirado en la cultura vikinga. ¡Lucha, construye y conquista tu viaje en una saga digna de la bendición de Odin!",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 7,
-      "title":"Assassin's Creed 2",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/33230/ss_5f558da23f7a18f176c15bd0a6c87b5086b2cda4.600x338.jpg?t=1682004272",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/33230/header.jpg?t=1682004272",
-      "category":"Adventure, Rol, Accion",
-      "description":"Una historia épica sobre familia, venganza y conspiración cuyo telón de fondo es una perfecta, pero aun así brutal, Italia del Renacimiento.",
-      "published":true,
-      "outstanding":true
+      "title": "Assassin's Creed 2",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/33230/ss_5f558da23f7a18f176c15bd0a6c87b5086b2cda4.600x338.jpg?t=1682004272",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/33230/header.jpg?t=1682004272",
+      "category": "Adventure, Rol, Accion",
+      "description": "Una historia épica sobre familia, venganza y conspiración cuyo telón de fondo es una perfecta, pero aun así brutal, Italia del Renacimiento.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 8,
-      "title":"Assassin’s Creed® Brotherhood",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/48190/ss_b2b401a6db5409b1ed94ed3d5517b449c5712099.116x65.jpg?t=1681861086",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/48190/header.jpg?t=1681861086",
-      "category":"Adventure, Rol, Action",
-      "description":"Vive y respira como Ezio, un legendario Maestro Asesino, en su continua lucha contra la poderosa Orden de los Templarios. Deberá viajar hasta la más increíble de las ciudades de Italia, Roma, centro de poder, avaricia y corrupción, para atacar el corazón del enemigo.",
-      "published":true,
-      "outstanding":true
+      "title": "Assassin’s Creed® Brotherhood",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/48190/ss_b2b401a6db5409b1ed94ed3d5517b449c5712099.116x65.jpg?t=1681861086",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/48190/header.jpg?t=1681861086",
+      "category": "Adventure, Rol, Action",
+      "description": "Vive y respira como Ezio, un legendario Maestro Asesino, en su continua lucha contra la poderosa Orden de los Templarios. Deberá viajar hasta la más increíble de las ciudades de Italia, Roma, centro de poder, avaricia y corrupción, para atacar el corazón del enemigo.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 9,
-      "title":"The Forest",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_8b6ee5b52fa2b058c20447b57317f6d50ddb313c.1920x1080.jpg?t=1699381053",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1699381053",
-      "category":"Adventure, Survival, Action",
-      "description":"Como único superviviente de un accidente de avión de pasajeros, te encuentras en un bosque misterioso luchando por sobrevivir contra una sociedad de mutantes caníbales. Construye, explora y sobrevive en este aterrador simulador de terror y supervivencia en primera persona.",
-      "published":true,
-      "outstanding":true
+      "title": "The Forest",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_8b6ee5b52fa2b058c20447b57317f6d50ddb313c.1920x1080.jpg?t=1699381053",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1699381053",
+      "category": "Adventure, Survival, Action",
+      "description": "Como único superviviente de un accidente de avión de pasajeros, te encuentras en un bosque misterioso luchando por sobrevivir contra una sociedad de mutantes caníbales. Construye, explora y sobrevive en este aterrador simulador de terror y supervivencia en primera persona.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 10,
-      "title":"ARK: Survival Evolved",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_164a92a53f9bcbb728b391fc0719f9769c2e1249.600x338.jpg?t=1694646699",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg?t=1694646699",
-      "category":"Adventure, Survival, Rol",
-      "description":"Juega como un hombre o una mujer desnudo, congelándote y muriéndote de hambre en una isla misteriosa. Debes cazar, cosechar, crear objetos, cultivar, y construir refugios para sobrevivir. Usa tu habilidad y astucia para matar, domesticar, criar y cabalgar dinosaurios y otras criaturas primitivas.",
-      "published":true,
-      "outstanding":true
+      "title": "ARK: Survival Evolved",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_164a92a53f9bcbb728b391fc0719f9769c2e1249.600x338.jpg?t=1694646699",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg?t=1694646699",
+      "category": "Adventure, Survival, Rol",
+      "description": "Juega como un hombre o una mujer desnudo, congelándote y muriéndote de hambre en una isla misteriosa. Debes cazar, cosechar, crear objetos, cultivar, y construir refugios para sobrevivir. Usa tu habilidad y astucia para matar, domesticar, criar y cabalgar dinosaurios y otras criaturas primitivas.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 11,
-      "title":"Microsoft Flight Simulator 40th Anniversary Edition",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1250410/ss_abe01d181b76e98b1a1d0d837a0a69eb62f78cb0.600x338.jpg?t=1689193265",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1689193265",
-      "category":"Simulation, Aventura, Multiplayer, Realistic, Open World",
-      "description":"Desde planeadores y helicópteros hasta aviones de fuselaje ancho, vuele aviones muy detallados y precisos en Microsoft Flight Simulator 40th Anniversary Edition. El mundo está a tu alcance.",
-      "published":true,
-      "outstanding":true
-    
+      "title": "Microsoft Flight Simulator 40th Anniversary Edition",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1250410/ss_abe01d181b76e98b1a1d0d837a0a69eb62f78cb0.600x338.jpg?t=1689193265",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1689193265",
+      "category": "Simulation, Aventura, Multiplayer, Realistic, Open World",
+      "description": "Desde planeadores y helicópteros hasta aviones de fuselaje ancho, vuele aviones muy detallados y precisos en Microsoft Flight Simulator 40th Anniversary Edition. El mundo está a tu alcance.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 12,
-      "title":"Cities: Skylines II",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.116x65.jpg?t=1698326456",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/949230/header.jpg?t=1698326456",
-      "category":"Economy, Realistic, Open World",
-      "description":"Construye una ciudad y haz que prospere con el constructor de ciudades más realista. Pon a prueba tu creatividad y tu resolución de problemas para construir a una escala que nunca experimentaste. Con su simulación y su economía, crea mundos sin límites.",
-      "published":true,
-      "outstanding":true
+      "title": "Cities: Skylines II",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.116x65.jpg?t=1698326456",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/949230/header.jpg?t=1698326456",
+      "category": "Economy, Realistic, Open World",
+      "description": "Construye una ciudad y haz que prospere con el constructor de ciudades más realista. Pon a prueba tu creatividad y tu resolución de problemas para construir a una escala que nunca experimentaste. Con su simulación y su economía, crea mundos sin límites.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 13,
-      "title":"Cyberpunk 2077",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.600x338.jpg?t=1699262718",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1091500/header_alt_assets_1_spanish.jpg?t=1699262718",
-      "category":"Open World, Aventura, Rol",
-      "description":"Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City, una peligrosa megalópolis obsesionada con el poder, el glamur y las incesantes modificaciones corporales.",
-      "published":true,
-      "outstanding":true
+      "title": "Cyberpunk 2077",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.600x338.jpg?t=1699262718",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header_alt_assets_1_spanish.jpg?t=1699262718",
+      "category": "Open World, Aventura, Rol",
+      "description": "Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City, una peligrosa megalópolis obsesionada con el poder, el glamur y las incesantes modificaciones corporales.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 14,
