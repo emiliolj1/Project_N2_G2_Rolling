@@ -32,23 +32,23 @@
   "games": [
     {
       "id": 1,
-      "title":"EA SPORTS FC™ 24",
-      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg?t=1700043631",
-      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_5320cc6b6c7fd39b41defe0570c3182df7065fd5.600x338.jpg?t=1700043631",
-      "category":"sports, football",
-      "description":"EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
-      "publish":true,
-      "outstanding":false
+      "title": "EA SPORTS FC™ 24",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg?t=1700043631",
+      "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_5320cc6b6c7fd39b41defe0570c3182df7065fd5.600x338.jpg?t=1700043631",
+      "category": "sports, football",
+      "description": "EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
+      "publish": true,
+      "outstanding": false
     },
     {
-      "id":2,
-      "title":"Grand Theft Auto V",
-      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1695060909",
-      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/271590/ss_3da42391c6317205177248dea0a48ced89998a8d.600x338.jpg?t=1695060909",
-      "category":"action, adventure",
-      "description":"Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
-      "publish":true,
-      "outstanding":false
+      "id": 2,
+      "title": "Grand Theft Auto V",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1695060909",
+      "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/ss_3da42391c6317205177248dea0a48ced89998a8d.600x338.jpg?t=1695060909",
+      "category": "action, adventure",
+      "description": "Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
+      "publish": true,
+      "outstanding": false
     },
     {
       "id": 3,
@@ -162,134 +162,133 @@
     },
     {
       "id": 14,
-      "title":"Call of Duty®",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1938090/ss_214fb6c77b37e18a85dc65739317cc3e9ea68f07.600x338.jpg?t=1699636249",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1699636249",
-      "category":"Multiplayer, Action, Realistic",
-      "description":"Te damos la bienvenida a Call of Duty® HQ, el hogar de Call of Duty®: Modern Warfare® III, Call of Duty®: Modern Warfare® II y Warzone™.",
-      "published":true,
-      "outstanding":true
-    
+      "title": "Call of Duty®",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/ss_214fb6c77b37e18a85dc65739317cc3e9ea68f07.600x338.jpg?t=1699636249",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1699636249",
+      "category": "Multiplayer, Action, Realistic",
+      "description": "Te damos la bienvenida a Call of Duty® HQ, el hogar de Call of Duty®: Modern Warfare® III, Call of Duty®: Modern Warfare® II y Warzone™.",
+      "published": true,
+      "outstanding": true
     },
     {
       "id": 15,
-      "title":"NBA 2K24",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/2338770/header.jpg?t=1697814723",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/2338770/extras/NBA24-BASE-METADATA-STEAM_Main_Capsule_616x353.jpg?t=1697814723",
-      "category":"sports",
-      "description":"Experimenta la cultura del baloncesto en NBA 2K24. Disfruta da acción a raudales y de opciones ilimitadas de personalización de Mi JUGADOR en Mi CARRERA. Crea tu quinteto de ensueño en MyTEAM. Adéntrate en un juego más sensible y unos visuales a otro nivel.",
-      "published":true,
-      "outstanding":false
+      "title": "NBA 2K24",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/2338770/header.jpg?t=1697814723",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/2338770/extras/NBA24-BASE-METADATA-STEAM_Main_Capsule_616x353.jpg?t=1697814723",
+      "category": "sports",
+      "description": "Experimenta la cultura del baloncesto en NBA 2K24. Disfruta da acción a raudales y de opciones ilimitadas de personalización de Mi JUGADOR en Mi CARRERA. Crea tu quinteto de ensueño en MyTEAM. Adéntrate en un juego más sensible y unos visuales a otro nivel.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 16,
-      "title":"WRC",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1849250/ss_c82aed10a5e3fb649c2fb21660988ccba8ea95e3.116x65.jpg?t=1699776063",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1849250/header.jpg?t=1698984186",
-      "category":"sports, cars",
-      "description":"¡Crea el coche de tus sueños en nuestro juego de rally más grande hasta la fecha! EA SPORTS™ WRC es el nuevo videojuego oficial del FIA World Rally Championship y el primero desarrollado por el galardonado equipo responsable de la serie DiRT Rally.",
-      "published":true,
-      "outstanding":false
+      "title": "WRC",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1849250/ss_c82aed10a5e3fb649c2fb21660988ccba8ea95e3.116x65.jpg?t=1699776063",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1849250/header.jpg?t=1698984186",
+      "category": "sports, cars",
+      "description": "¡Crea el coche de tus sueños en nuestro juego de rally más grande hasta la fecha! EA SPORTS™ WRC es el nuevo videojuego oficial del FIA World Rally Championship y el primero desarrollado por el galardonado equipo responsable de la serie DiRT Rally.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 17,
-      "title":"Riders Republic",
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/2290180/ss_96d0ef08e986e2585fcb3123c11cd3cb72396c2e.116x65.jpg?t=1697654113",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/2290180/header.jpg?t=1697654113",
-      "category":"sports",
-      "description":"¡Lánzate al mundo masivo multijugador de Riders Republic™!",
-      "published":true,
-      "outstanding":false
+      "title": "Riders Republic",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/2290180/ss_96d0ef08e986e2585fcb3123c11cd3cb72396c2e.116x65.jpg?t=1697654113",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/2290180/header.jpg?t=1697654113",
+      "category": "sports",
+      "description": "¡Lánzate al mundo masivo multijugador de Riders Republic™!",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 18,
-      "title":"Forza Horizon 5", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.116x65.jpg?t=1699624973",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg?t=1699624973",
-      "category":"sports, cars",
-      "description":"Explora los vibrantes paisajes del mundo abierto de México y disfruta de una diversión sin límites al volante de los mejores coches del mundo. Conquista la escarpada Sierra Nueva en la experiencia definitiva del rally de Horizon.",
-      "published":true,
-      "outstanding":false
+      "title": "Forza Horizon 5",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.116x65.jpg?t=1699624973",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg?t=1699624973",
+      "category": "sports, cars",
+      "description": "Explora los vibrantes paisajes del mundo abierto de México y disfruta de una diversión sin límites al volante de los mejores coches del mundo. Conquista la escarpada Sierra Nueva en la experiencia definitiva del rally de Horizon.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 19,
-      "title":"Madden NFL 24", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/2140330/ss_2e7f5ec283c3dea6c4397b31d5e313a2ab923853.116x65.jpg?t=1697663473",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/2140330/header.jpg?t=1697663473",
-      "category":"sports",
-      "description":"Disfruta de la nueva versión de FieldSENSE™ en Madden NFL 24. Los movimientos más realistas de los personajes y una IA más inteligente te dan el control necesario para ejecutar tus estrategias de juego con la confianza necesaria para dominar a cualquier rival.",
-      "published":true,
-      "outstanding":false
+      "title": "Madden NFL 24",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/2140330/ss_2e7f5ec283c3dea6c4397b31d5e313a2ab923853.116x65.jpg?t=1697663473",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/2140330/header.jpg?t=1697663473",
+      "category": "sports",
+      "description": "Disfruta de la nueva versión de FieldSENSE™ en Madden NFL 24. Los movimientos más realistas de los personajes y una IA más inteligente te dan el control necesario para ejecutar tus estrategias de juego con la confianza necesaria para dominar a cualquier rival.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 20,
-      "title":"iRacing", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/266410/ss_074cbf0afeaccb17d57bb1cb17c28804aa88b084.116x65.jpg?t=1685469538",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/266410/header.jpg?t=1685469538",
-      "category":"sports, cars",
-      "description":"We are the worlds premier motorsports racing game. An iRacing membership provides entry into the newest form of motorsport: internet racing. Internet racing is a fun, easy, and inexpensive way for race fan and gamers alike to enjoy the thrill of the racetrack from the comfort of their home.",
-      "published":true,
-      "outstanding":false
+      "title": "iRacing",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/266410/ss_074cbf0afeaccb17d57bb1cb17c28804aa88b084.116x65.jpg?t=1685469538",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/266410/header.jpg?t=1685469538",
+      "category": "sports, cars",
+      "description": "We are the worlds premier motorsports racing game. An iRacing membership provides entry into the newest form of motorsport: internet racing. Internet racing is a fun, easy, and inexpensive way for race fan and gamers alike to enjoy the thrill of the racetrack from the comfort of their home.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 21,
-      "title":"Super Woden GP 2", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/2083210/ss_e3cc15a3fe42cf4c43eb07797690d2726c8b769a.116x65.jpg?t=1699654004",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/2083210/header.jpg?t=1699654004",
-      "category":"sports, cars",
-      "description":"Super Woden GP 2 es una carta de amor al mundo de los deportes de motor, ofreciendo una experiencia única. Una fusión perfecta entre jugabilidad retro arcade, y una campaña con una profundidad sin igual.",
-      "published":true,
-      "outstanding":false
+      "title": "Super Woden GP 2",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/2083210/ss_e3cc15a3fe42cf4c43eb07797690d2726c8b769a.116x65.jpg?t=1699654004",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/2083210/header.jpg?t=1699654004",
+      "category": "sports, cars",
+      "description": "Super Woden GP 2 es una carta de amor al mundo de los deportes de motor, ofreciendo una experiencia única. Una fusión perfecta entre jugabilidad retro arcade, y una campaña con una profundidad sin igual.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 22,
-      "title":"Steep™", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/460920/ss_926a9ba0ea6b491321cd8eacbb54c78bdaf59d20.116x65.jpg?t=1679998365",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/460920/header.jpg?t=1679998365",
-      "category":"sports, ski",
-      "description":"Recorre un enorme mundo abierto a través de los Alpes, donde la nieve es polvo fresco y el descenso infinito. Desafía la montaña solo o con amigos, con esquís, traje de alas, tabla de snowboard o parapente. Graba y comparte tus mejores acrobacias.",
-      "published":true,
-      "outstanding":false
+      "title": "Steep™",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/460920/ss_926a9ba0ea6b491321cd8eacbb54c78bdaf59d20.116x65.jpg?t=1679998365",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/460920/header.jpg?t=1679998365",
+      "category": "sports, ski",
+      "description": "Recorre un enorme mundo abierto a través de los Alpes, donde la nieve es polvo fresco y el descenso infinito. Desafía la montaña solo o con amigos, con esquís, traje de alas, tabla de snowboard o parapente. Graba y comparte tus mejores acrobacias.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 23,
-      "title":"Black Desert", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/256920663/movie.184x123.jpg?t=1671510603",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg?t=1699030526",
-      "category":"adventure, action, open world",
-      "description":"Con más de 20 millones de aventureros, black Desert Online es un MMORPG de acción de mundo abierto. ¡Experimenta su intenso combate, enfréntante a Jefes mundiales, asedia castillos junto a tus amigos y mejora en diversas profesiones como pesca, comercio, manufactura, y cocina, entre otras!",
-      "published":true,
-      "outstanding":false
+      "title": "Black Desert",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/256920663/movie.184x123.jpg?t=1671510603",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg?t=1699030526",
+      "category": "adventure, action, open world",
+      "description": "Con más de 20 millones de aventureros, black Desert Online es un MMORPG de acción de mundo abierto. ¡Experimenta su intenso combate, enfréntante a Jefes mundiales, asedia castillos junto a tus amigos y mejora en diversas profesiones como pesca, comercio, manufactura, y cocina, entre otras!",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 24,
-      "title":"Grounded", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/962130/ss_91a03b79d881f37cc7d39b5baf5bb597d344fabe.116x65.jpg?t=1699908769",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/962130/header.jpg?t=1699908769",
-      "category":"adventure, survival, open world",
-      "description":"The world is a vast, beautiful and dangerous place, especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
-      "published":true,
-      "outstanding":false
+      "title": "Grounded",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/962130/ss_91a03b79d881f37cc7d39b5baf5bb597d344fabe.116x65.jpg?t=1699908769",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/962130/header.jpg?t=1699908769",
+      "category": "adventure, survival, open world",
+      "description": "The world is a vast, beautiful and dangerous place, especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 25,
-      "title":"New World", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/1063730/ss_77a6d19ec93dd872087026e5d9d47ac46b5c029f.116x65.jpg?t=1695753023",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/1063730/header.jpg?t=1695753023",
-      "category":"adventure, action, open world",
-      "description":"Explora un emocionante MMO de mundo abierto repleto de peligros y oportunidades en el que forjarás un nuevo destino en la isla sobrenatural de Aetérnum.",
-      "published":true,
-      "outstanding":false
+      "title": "New World",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1063730/ss_77a6d19ec93dd872087026e5d9d47ac46b5c029f.116x65.jpg?t=1695753023",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1063730/header.jpg?t=1695753023",
+      "category": "adventure, action, open world",
+      "description": "Explora un emocionante MMO de mundo abierto repleto de peligros y oportunidades en el que forjarás un nuevo destino en la isla sobrenatural de Aetérnum.",
+      "published": true,
+      "outstanding": false
     },
     {
       "id": 26,
-      "title":"Monster Hunter: World", 
-      "image":"https://cdn.akamai.steamstatic.com/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.116x65.jpg?t=1697508240",
-      "coverPage":"https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg?t=1697508240",
-      "category":"adventure, action, fantasy, rol, open world",
-      "description":"¡Bienvenidos a un nuevo mundo! En Monster Hunter: World, la última entrega de la serie, podrás disfrutar de la mejor experiencia de juego, usando todos los recursos a tu alcance para acechar monstruos en un nuevo mundo rebosante de emociones y sorpresas.",
-      "published":true,
-      "outstanding":false
+      "title": "Monster Hunter: World",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.116x65.jpg?t=1697508240",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg?t=1697508240",
+      "category": "adventure, action, fantasy, rol, open world",
+      "description": "¡Bienvenidos a un nuevo mundo! En Monster Hunter: World, la última entrega de la serie, podrás disfrutar de la mejor experiencia de juego, usando todos los recursos a tu alcance para acechar monstruos en un nuevo mundo rebosante de emociones y sorpresas.",
+      "published": true,
+      "outstanding": false
     }
   ]
 }
