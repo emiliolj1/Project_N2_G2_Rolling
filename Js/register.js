@@ -26,3 +26,15 @@ const createUser = (event) => {
 } ;
 
 document.getElementById('registerForm').addEventListener('submit', createUser)
+
+function enviarMail () {
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "marcstord@gmail.com",
+    Password : "C4E9AF0F126E01CCDFD664844C6CFC2CB03C",
+    To : 'marcelo.stordeur@jimtucuman.edu.ar',
+    From : "marcstord@gmail.com",
+    Subject : "gracias por suscribirte",
+    Body : "estamos contentos de tenerte"
+  }).then(message => alert(message));
+}
