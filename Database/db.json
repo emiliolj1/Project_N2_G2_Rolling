@@ -290,6 +290,146 @@
       "description":"¡Bienvenidos a un nuevo mundo! En Monster Hunter: World, la última entrega de la serie, podrás disfrutar de la mejor experiencia de juego, usando todos los recursos a tu alcance para acechar monstruos en un nuevo mundo rebosante de emociones y sorpresas.",
       "published":true,
       "outstanding":false
+    },
+    {
+      "id":27,
+      "title":"Half-Life",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg?t=1700243416",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/70/0000002347.600x338.jpg?t=1700243416",
+      "category":"Action",
+      "description":"Nombrado juego del año por más de 50 publicaciones, la ópera prima de Valve mezcla acción y aventuras con una tecnología galardonada con varios premios, en un mundo terriblemente realista en el que los jugadores deberán esforzarse por sobrevivir.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":28,
+      "title":"Terraria",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg?t=1666290860",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.600x338.jpg?t=1666290860",
+      "category":"Action, Adventure, Indie, Rol",
+      "description":"¡Cava, lucha, explora, construye! Con este juego de aventuras repleto de acción nada es imposible. ¡Pack de Cuatro también disponible!",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":29,
+      "title":"Raft",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/648800/header.jpg?t=1693638925",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/648800/ss_2adb248f4d501cf58344d9af1d8a9e56c74647ee.600x338.jpg?t=1693638925",
+      "category":"Adventure, Indie, Rol",
+      "description":"¡Raft™ te lanza a ti y a tus amigos a una aventura oceánica épica! ¡Solos o juntos, los jugadores luchan por sobrevivir en un peligroso viaje a través de un vasto mar! Reúne escombros, hurga en los arrecifes y construye tu propia casa flotante, ¡pero ten cuidado con los tiburones devoradores de hombres!",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":30,
+      "title":"Dota 2",
+      "image":"https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1700261778",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.600x338.jpg?t=1700261778",
+      "category":"Action, Strategy",
+      "description":"Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota. Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo que descubrir.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":31,
+      "title":"Don't Starve Together",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header_alt_assets_41.jpg?t=1697740612",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/322330/ss_f863729856b94b3485ee80e6fd11289595f6634c.600x338.jpg?t=1697740612",
+      "category":"Action, Adventure, Indie, Rol, Simulation, Strategy",
+      "description":"Don't Starve Together es la expansión multijugador independiente del juego de supervivencia sin límites Don't Starve.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":32,
+      "title":"Apex Legends™",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1700150367",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/ss_e1f0cc66a7ec0687c028a25834614b810e9b56a5.600x338.jpg?t=1700150367",
+      "category":"Action, Adventure",
+      "description":"Apex Legends es el galardonado juego gratuito de acción en primera persona de Respawn Entertainment. Domina un elenco creciente de leyendas con potentes habilidades. Juego estratégico basado en pelotones y jugabilidad innovadora en la nueva evolución del Battle Royale",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":33,
+      "title":"Halo Infinite",
+	"image":"https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/header.jpg?t=1697562630",
+	"coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/ss_211139ca4c027d8a02881550d0def6f67eebb9e5.600x338.jpg?t=1697562630",
+      "category":"Action",
+      "description":"Cuando toda esperanza se pierde y el destino de la humanidad pende de un hilo, el Jefe Maestro está listo para enfrentarse al enemigo más despiadado al que jamás haya hecho frente.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":34,
+      "title":"Age of Empires II: Definitive Edition",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/header.jpg?t=1699054682",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_83253675c7af3ad5f3f2c1dc2c43c667000e0c4a.600x338.jpg?t=1699054682",
+      "category":"Strategy",
+      "description":"Age of Empires II: Definitive Edition incluye 'Los últimos khanes', que incorpora 3 campañas y 4 civilizaciones nuevas. Las frecuentes actualizaciones contienen eventos, contenido adicional, nuevos modos de juego (¡como el reciente modo cooperativo!) y funciones mejoradas.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":35,
+      "title":"PUBG: BATTLEGROUNDS",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1700369413",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/578080/ss_f148e1cd44da2972d1b61da1e12b7b3587c1f6a3.600x338.jpg?t=1700369413",
+      "category":"Action, Adventure, Multiplayer",
+      "description":"Juega gratis a PUBG: BATTLEGROUNDS. Aterriza en posiciones estratégicas, saquea armas y suministros, y sobrevive para que vuestro equipo sea el único en pie en los distintos y variados campos de batalla.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":36,
+      "title":"Tom Clancy's Ghost Recon® Wildlands",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/header.jpg?t=1695136171",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/460930/ss_c8fb21808c02c66037df923c261924ad6d4aa959.600x338.jpg?t=1695136171",
+      "category":"Action, Adventure",
+      "description":"Crea un equipo hasta con 3 amigos en Tom Clancy’s Ghost Recon® Wildlands y disfruta del Shooter militar definitivo en un enorme y peligroso mundo abierto.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":37,
+      "title":"PAYDAY 3",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272080/header.jpg?t=1699355443",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/1272080/ss_feab168614803617da20ef134ff05b49692784ba.600x338.jpg?t=1699355443",
+      "category":"Action, Adventure, Rol",
+      "description":"PAYDAY 3 es la muy esperada secuela de uno de los shooters cooperativos más populares que existen. Desde su lanzamiento, los jugadores de PAYDAY han disfrutado de la emoción de un trabajo perfectamente planeado y ejecutado.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":38,
+      "title":"Tom Clancy's Rainbow Six® Siege",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg?t=1699395596",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/359550/ss_273f6a2d85443dd0a0d34ce43de4934f012d8905.600x338.jpg?t=1699395596",
+      "category":"Action",
+      "description":"Tom Clancy's Rainbow Six® Siege es un shooter táctico realista por equipos donde una cuidadosa planificación y ejecución son claves para la victoria.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":39,
+      "title":"Counter-Strike 2",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1698860631",
+      "category":"Action",
+      "description":"Durante las dos últimas décadas, Counter‑Strike ha proporcionado una experiencia competitiva de primer nivel para los millones de jugadores de todo el mundo que contribuyeron a darle forma. Ahora el próximo capítulo en la historia de CS está a punto de comenzar. Hablamos de Counter‑Strike 2.",
+      "published":true,
+      "outstanding":false
+    },
+    {
+      "id":40,
+      "title":"Stellaris",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/281990/header.jpg?t=1700151517",
+      "coverPage":"https://cdn.cloudflare.steamstatic.com/steam/apps/281990/ss_692532123e560e6b866baee59b1e310a291a110d.600x338.jpg?t=1700151517",
+      "category":"Simulation, Strategy",
+      "description":"Explora una galaxia repleta de maravillas con este juego de ciencia ficción y gran estrategia de Paradox Development Studio. Interactúa con distintas especies alienígenas, descubre nuevos mundos y amplía el dominio de tu imperio. Cada nueva aventura ofrece posibilidades casi infinitas.",
+      "published":true,
+      "outstanding":false
     }
   ]
 }
