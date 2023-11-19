@@ -1,10 +1,11 @@
-const createUser = () => {
+const createUser = (event) => {
+  event.preventDefault();
   const name = document.getElementById('nombre').value
   const email = document.getElementById('Email').value
   const password = document.getElementById('Password').value
 
-  if (!name || !email || !password) {
-    alert("Faltan datos");
+  if (name.trim() === '' || email.trim() === '' || password.trim() === '') {
+    alert("Por favor complete todos los campos");
     return;
   }
 
@@ -20,6 +21,8 @@ const createUser = () => {
       'content-type': 'application/json; charset=UTF-8'
     }
   })
-  alert("Registro con exito")
-  window.location.href = '../index.html'
-} 
+  const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'),{});
+  myModal.show()
+} ;
+
+document.getElementById('registerForm').addEventListener('submit', createUser)
