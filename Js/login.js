@@ -1,74 +1,40 @@
-const loginUser = async () => {
-  
-  const name = document.getElementById('nombre').value
-  const email = document.getElementById('emailLogin').value
-  const password = document.getElementById('passwordlogin').value
+const loginUser = async (event) => {
+  event.preventDefault(); // Prevenimos que el submit haga un refresco de la página
 
-  
-  const result = await fetch ('http://localhost:3000/users')
-  const users = await result.json()
-  
-  const user = users.find (usuario => usuario.email === email)
-  
+  // Traemos los values de los inputs
+  const name = document.getElementById('nombre').value;
+  const email = document.getElementById('emailLogin').value;
+  const password = document.getElementById('passwordlogin').value;
 
-  if (!user) {
-    alert('Por favor complete todos los campos');
-    return; // Termina la función si no hay usuario
+  // Traemos los datos de la DB y hacemos el find del email ingresado
+  const result = await fetch('http://localhost:3000/users');
+  const users = await result.json();
+
+  const user = users.find(usuario => usuario.email === email);
+
+  // Primero chequeamos que el email ingreado exista en la DB:
+  if(user === undefined){
+    alert('El email ingresado no existe en nuestra base de datos')
+    return //Si no existe, arrojamos error y retornamos nada para detener la funcion
   }
 
-  if (user.password === password && user.name === name) {
-    localStorage.setItem('role', user.role);
+  // Si el email existe, validamos que la contraseñá y el username sean correctos:
+  if(user.password !== password || user.name !== name){
+    alert('Nombre de usuario o contraseña incorrectos')
+    return //Si alguno de los 2 datos no estan ok, arrojamos error y retornamos nada para detener la funcion.
+  }
 
-    const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {});
-    myModal.show();
+  // Si todo está ok, continuamos con el resto
+  localStorage.setItem('role', user.role)
 
-    const roleUser = localStorage.getItem('role'); // Corregido: 'role' en lugar de role
-    if (roleUser === 'admin') {
-      const adminModal = new bootstrap.Modal(document.getElementById('Modaladmin'), {});
-      adminModal.show();
-    }
+  // Por ultimo validamos el rol del usuario, si es cliente, disparamos modal de cliente, si es admin, disparamos modal de admin:
+  if(user.role === 'admin'){
+    const myModal = new bootstrap.Modal(document.getElementById('Modaladmin'), {});
+    myModal.show()
   } else {
-    alert('Los datos son incorrectos');
+    const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {});
+    myModal.show()
   }
-
-
-
-  // if(!user){
-  //   alert('Por favor complete todos los campos')
-  // } else if (user.password === password && user.name === name) {
-  //   localStorage.setItem('role', user.role);
-
-  //   if (user.role === 'admin') {
-  //     const myModalAdmin = new bootstrap.Modal(document.getElementById('ModalAdmin'), {
-  //       backdrop: true,
-  //       keyboard: true,
-  //       focus: true
-  //     });
-  //   } else {
-  //     const myModalFuncional = new bootstrap.Modal(document.getElementById('ModalFuncional'), {
-  //       backdrop: true,
-  //       keyboard: true,
-  //       focus: true
-  //     });
-  //     myModalFuncional.show();
-  //   }
-  // } else {
-  //   alert('Los datos son incorrectos');
-  // }
-  
-  
-  // if(user.password === password && user.name === name){
-  //   localStorage.setItem ('role', user.role)
-  //   const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {})
-  //   myModal.show()
-  // } else {
-  //   alert ('los datos son incorrectos')
-  // } 
-  
-  // const roleuser = localStorage.getItem(role)
-  // if (roleuser === 'admin'){
-  //   const myModal = new bootstrap.Modal(document.getElementById('Modaladmin'), {})
-  //   myModal.show()
-  // }
 };
 
+document.getElementById('loginForm').addEventListener('submit', loginUser)
