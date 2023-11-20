@@ -7,9 +7,14 @@
 .navColor{
   background-color:var(--fondoNavbar);
 }
+.logo{
+  width:6rem; 
+  height: 6rem;
+}
 
 .title{
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+
 }
 .card{
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -23,10 +28,88 @@
   border-radius: 1.1rem;
 }
 
+
 .card-text{
   color: white;
 }
 
 .backMain{
+  padding-top:8rem;
   background-color: var(--fondoPagina);
 }
+
+.button {
+  position: relative;
+  width: 156px;
+  height: 30px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgb(57, 11, 131);
+  background-color: var(--fondoNavbar);
+}
+
+.button, .button__icon, .button__text {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  -webkit-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+          transform: translateX(30px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.button .button__icon {
+  position: absolute;
+  -webkit-transform: translateX(109px);
+      -ms-transform: translateX(109px);
+          transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: rgb(57, 11, 131);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button .svg {
+  width: 30px;
+  stroke: #fff;
+}
+
+.button:hover {
+  background: rgb(57, 11, 131);
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 148px;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.button:active .button__icon{
+  background-color: rgb(57, 11, 131);
+}
+
+.button:active {
+  border: 1px solid rgb(57, 11, 131);
+}
+
