@@ -25,7 +25,7 @@ const updateTable = () => {
         <input class="m-0" type="checkbox" ${juego.published ? 'checked' : ''} onclick="togglePublished(${juego.id})">
       </td>
       <th class="text-center align-middle acciones">
-      <span class="bi ${juego.id === juegoDestacadoId ? 'bi-star-fill' : 'bi-star'} destacado" onclick="toggleOutstanding(${juego.id})"></span>
+      <span class="bi ${juego.outstanding === true ? 'bi-star-fill' : 'bi-star'} destacado" onclick="toggleOutstanding(${juego.id})"></span>
         <i class="bi bi-pencil-square" onclick="openEditModal(${juego.id})"></i>
       <span class="bi bi-trash" onclick="toggleDeleteGame(${juego.id})"></span>
       </th>
@@ -66,9 +66,17 @@ getGames();
 
 
 //OUTSTANDING
-async function updateGame(juego) {
+
+let juegoDestacadoId;
+toggleOutstanding = async (gameId) => {
+  const juego = games.find(juego => juego.id === gameId);
+  const idJuego = juego.id;
+  if (idJuego) {
+      juego.outstanding = !juego.outstanding
+
+    }
   try {
-    const response = await fetch(`http://localhost:3000/games/${juego.id}`, {
+    const response = await fetch(`http://localhost:3000/games/${idJuego}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -76,37 +84,22 @@ async function updateGame(juego) {
       body: JSON.stringify({ outstanding: juego.outstanding }),
     });
 
-    if (!response.ok) {
-      console.log('No se pudo actualizar el estado en el servidor.');
-    }
-    // Actualizar la tabla
-    await getGames();
-  } catch (error) {
-    console.error('Error al actualizar el estado en el servidor:', error);
+  if (!response.ok) {
+    console.log('No se pudo actualizar el estado en el servidor.');
   }
+  // Actualizar la tabla
+  await getGames();
+} catch (error) {
+  console.error('Error al actualizar el estado en el servidor:', error);
+}
+const juegoDestacado = games.find(juego => juego.outstanding === true);
+if (juegoDestacado && juegoDestacadoId !== gameId) {
+  juegoDestacado.outstanding = false;
+  await updateGame(juegoDestacado);
 }
 
-let juegoDestacadoId;
-toggleOutstanding = async (gameId) => {
-  const juego = games.find(juego => juego.id === gameId);
-
-  if (juegoDestacadoId !== gameId && juego) {
-    // Desactiva el destacado en el juego actualmente destacado
-    const juegoDestacado = games.find(juego => juego.id === juegoDestacadoId);
-    if (juegoDestacado) {
-      juegoDestacado.outstanding = false;
-      await updateGame(juegoDestacado);
-    }
-
-    // Activar el destacado en el juego seleccionado
-    juego.outstanding = true;
-    await updateGame(juego);
-    // Actualiza el juego destacado
-    juegoDestacadoId = gameId;
-  }
-
   // Actualiza la tabla con los datos actualizados desde el la base de datos
-  updateTable();
+  // updateTable();
 };
 
 

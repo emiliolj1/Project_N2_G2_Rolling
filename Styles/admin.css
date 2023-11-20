@@ -10,3 +10,11 @@
 .description{
   font-weight: normal;
 }
+
+body{
+  background-color: rgb(57, 11, 131);
+}
+
+.texteBlue{
+  text-emphasis-color:rgb(57, 11, 131);
+}
