@@ -23,18 +23,21 @@ const createUser = (event) => {
   })
   const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'),{});
   myModal.show()
+  
 } ;
-
 document.getElementById('registerForm').addEventListener('submit', createUser)
 
-function enviarMail () {
-  Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "marcstord@gmail.com",
-    Password : "C4E9AF0F126E01CCDFD664844C6CFC2CB03C",
-    To : 'marcelo.stordeur@jimtucuman.edu.ar',
-    From : "marcstord@gmail.com",
-    Subject : "gracias por suscribirte",
-    Body : "estamos contentos de tenerte"
-  }).then(message => alert(message));
-}
+
+// function enviarMail () {
+//   const name = document.getElementById('nombre').value
+//   const email = document.getElementById('Email').value
+//   Email.send({
+//     Host : "smtp.elasticemail.com",
+//     Username : "m.belenmartinez99@gmail.com",
+//     Password : "C4E9AF0F126E01CCDFD664844C6CFC2CB03C",
+//     To : 'mbmartinez3099@gmail.com',
+//     From : `m.belenmartinez99@gmail.com`,
+//     Subject : "Se crearon una cuenta",
+//     Body : `${name} se creo una cuenta en InfinityGames`
+//   }).then(message => alert(message));
+// }
