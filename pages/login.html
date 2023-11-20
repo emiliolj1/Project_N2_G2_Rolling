@@ -30,7 +30,7 @@
 <section class="container justify-content-center align-items-center">
   <section class="justify-content-center my-2 py-2">
     <h2>Loguearse</h2>
-    <form>
+    <form id="loginForm">
       <div class="mb-3">
         <label class="form-label">Ingresar un nombre</label>
         <input type="" class="form-control" id="nombre" value="" maxlength="16" minlength="4" required>
@@ -52,7 +52,7 @@
           Tu contraseña debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
         </div>
       </div>
-      <button type="button" class="btn btn-secondary" onclick="loginUser()">Loguearse</button>
+      <button type="submit" class="btn btn-secondary">Loguearse</button>
     </form>
   </section>
 </section>
@@ -88,11 +88,8 @@
         ¡Bienvenido de vuelta!, esperamos mucho por tu regreso.
       </div>
       <div class="modal-footer">
-        <a href="">
-          <button type="button" class="btn btn-primary">Ir a la pagina de administracion</button>
-        </a>
         <a href="../index.html">
-          <button type="button" class="btn btn-primary">Ir a la pagina Principal</button>
+          <button type="button" class="btn btn-primary">Ir a la pagina de administracion</button>
         </a>
       </div>
     </div>

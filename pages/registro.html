@@ -32,10 +32,10 @@
   <section class="container justify-content-center align-items-center">
     <section class="justify-content-center my-2 py-2">
       <h2>Registrarse</h2>
-      <form>
+      <form id="registerForm">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ingresar un nombre</label>
-          <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp" value=""  maxlength="16" minlength="4" required>
+          <input type="" class="form-control" id="nombre" value=""  maxlength="16" minlength="4" required>
           <div id="passwordHelpBlock" class="form-text">
            Tu nombre debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
           </div>
@@ -53,7 +53,9 @@
             Tu contraseña debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacion, caracteres especiales o emojis.
           </div>
         </div>
-        <button type="button" class="btn btn-secondary" onclick="createUser()" >Crear Usuario</button>
+        <div class="py-3">
+          <button type="submit" class="btn btn-secondary">Crear Usuario</button>
+        </div>
       </form>
     </section>
   </section>
