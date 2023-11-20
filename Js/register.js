@@ -28,16 +28,16 @@ const createUser = (event) => {
 document.getElementById('registerForm').addEventListener('submit', createUser)
 
 
-// function enviarMail () {
-//   const name = document.getElementById('nombre').value
-//   const email = document.getElementById('Email').value
-//   Email.send({
-//     Host : "smtp.elasticemail.com",
-//     Username : "m.belenmartinez99@gmail.com",
-//     Password : "C4E9AF0F126E01CCDFD664844C6CFC2CB03C",
-//     To : 'mbmartinez3099@gmail.com',
-//     From : `m.belenmartinez99@gmail.com`,
-//     Subject : "Se crearon una cuenta",
-//     Body : `${name} se creo una cuenta en InfinityGames`
-//   }).then(message => alert(message));
-// }
+function enviarMail () {
+  const name = document.getElementById('nombre').value
+  const email = document.getElementById('Email').value
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "m.belenmartinez99@gmail.com",
+    Password : "A226829DD57847DFE1A09F6BB5BDA50EDADF",
+    To : 'm.belenmartinez99@gmail.com',
+    From : "m.belenmartinez99@gmail.com",
+    Subject : `¡Crearon una nueva cuenta!`,
+    Body : `${name} se registro a Infinity Games con el email: ${email}`
+  }).then();
+}
