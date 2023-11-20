@@ -12,6 +12,8 @@
   height: 6rem;
 }
 
+
+
 .title{
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
 
@@ -113,3 +115,235 @@
   border: 1px solid rgb(57, 11, 131);
 }
 
+
+
+.ingresarBtn {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 95.02px;
+  height: 42.66px;
+  border: none;
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-mother {
+  display: flex;
+  overflow: hidden;
+}
+
+button:hover .span-mother {
+  position: absolute;
+}
+
+button:hover .span-mother span {
+  transform: translateY(1.2em);
+}
+
+.span-mother span:nth-child(1) {
+  transition: .2s;
+}
+
+.span-mother span:nth-child(2) {
+  transition: .3s;
+}
+
+.span-mother span:nth-child(3) {
+  transition: .4s;
+}
+
+.span-mother span:nth-child(4) {
+  transition: .5s;
+}
+
+.span-mother span:nth-child(5) {
+  transition: .6s;
+}
+
+.span-mother span:nth-child(6) {
+  transition: .7s;
+}
+
+.span-mother span:nth-child(7) {
+  transition: .8s;
+}
+
+.span-mother span:nth-child(8) {
+  transition: .9s;
+}
+
+.span-mother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+.span-mother2 span {
+  transform: translateY(-1.4em);
+}
+
+button:hover .span-mother2 span {
+  transform: translateY(0);
+}
+
+.span-mother2 span {
+  transition: .2s;
+}
+
+.span-mother2 span:nth-child(2) {
+  transition: .3s;
+}
+
+.span-mother2 span:nth-child(3) {
+  transition: .4s;
+}
+
+.span-mother2 span:nth-child(4) {
+  transition: .5s;
+}
+
+.span-mother2 span:nth-child(5) {
+  transition: .6s;
+}
+
+.span-mother2 span:nth-child(6) {
+  transition: .7s;
+}
+
+.span-mother2 span:nth-child(7) {
+  transition: .8s;
+}
+.span-mother2 span:nth-child(8) {
+  transition: .9s;
+}
+
+.registerBtn {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 95.02px;
+  height: 42.66px;
+  border: none;
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-mother1 {
+  display: flex;
+  overflow: hidden;
+}
+
+button:hover .span-mother1 {
+  position: absolute;
+}
+
+button:hover .span-mother1 span {
+  transform: translateY(1.2em);
+}
+
+.span-mother1 span:nth-child(1) {
+  transition: .2s;
+}
+
+.span-mother1 span:nth-child(2) {
+  transition: .3s;
+}
+
+.span-mother1 span:nth-child(3) {
+  transition: .4s;
+}
+
+.span-mother1 span:nth-child(4) {
+  transition: .5s;
+}
+
+.span-mother1 span:nth-child(5) {
+  transition: .6s;
+}
+
+.span-mother1 span:nth-child(6) {
+  transition: .7s;
+}
+
+.span-mother1 span:nth-child(7) {
+  transition: .8s;
+}
+
+.span-mother1 span:nth-child(8) {
+  transition: .9s;
+}
+
+.span-mother1 span:nth-child(9) {
+  transition: 1s;
+}
+
+.span-mother1 span:nth-child(10) {
+  transition: 1.1s;
+}
+
+.span-mother1 span:nth-child(11) {
+  transition: 1.2s;
+}
+
+.span-mother3 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+.span-mother3 span {
+  transform: translateY(-1.4em);
+}
+
+button:hover .span-mother3 span {
+  transform: translateY(0);
+}
+
+.span-mother3 span {
+  transition: .2s;
+}
+
+.span-mother3 span:nth-child(2) {
+  transition: .3s;
+}
+
+.span-mother3 span:nth-child(3) {
+  transition: .4s;
+}
+
+.span-mother3 span:nth-child(4) {
+  transition: .5s;
+}
+
+.span-mother3 span:nth-child(5) {
+  transition: .6s;
+}
+
+.span-mother3 span:nth-child(6) {
+  transition: .7s;
+}
+
+.span-mother3 span:nth-child(7) {
+  transition: .8s;
+}
+
+.span-mother3 span:nth-child(8) {
+  transition: .9s;
+}
+
+.span-mother3 span:nth-child(9) {
+  transition: 1s;
+}
+
+.span-mother3 span:nth-child(10) {
+  transition: 1.1s;
+}
+
+.span-mother3 span:nth-child(11) {
+  transition: 1.2s;
+}
