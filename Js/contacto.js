@@ -4,10 +4,14 @@ function enviarMail() {
   const mensaje = document.getElementById('mensaje').value
 
   Email.send({
-    SecureToken: "A226829DD57847DFE1A09F6BB5BDA50EDADF",
-    To : "m.belenmartinez99@gmail.com",
-    From : `${email}`,
-    Subject : "¡Gracias por contactarnos!",
-    Body : `Hola ${name} ! Gracias por contactarte con InfinityGames. Tu consulta:" ${mensaje} " se registró con exito en nuestro sistema. A la brevedad uno de nuestros agentes se pondrá en contacto contigo.`
-  }).then(message => alert(message));
+    Host : "smtp.elasticemail.com",
+    Username : "m.belenmartinez99@gmail.com",
+    Password : "A226829DD57847DFE1A09F6BB5BDA50EDADF",
+    To : 'm.belenmartinez99@gmail.com',
+    From : "m.belenmartinez99@gmail.com",
+    Subject : `¡${name} a enviado una consulta!`,
+    Body : `A traves del mail: ${email}, nos envìa el siguiente mensaje: ${mensaje}`
+  }).then(); 
+  const myModal = new bootstrap.Modal(document.getElementById('ModalFuncional'), {});
+    myModal.show()
 }
