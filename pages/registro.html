@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../Styles/nosotros.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <title>Registro</title>
 </head>
 <body>
@@ -49,7 +50,7 @@
           </div>
         </div>
         <div class="py-3">
-          <button type="submit" class="btn btn-secondary">Crear Usuario</button>
+          <button type="submit" class="btn btn-secondary" onclick="enviarMail()">Crear Usuario</button>
         </div>
       </form>
     </section>
@@ -64,7 +65,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ¡Bienvenido de vuelta!, esperamos mucho por tu regreso.
+          ¡Felicidades! te registraste  a Infinity Games, se le notifico de tu llegada al administrador.
         </div>
         <div class="modal-footer">
           <a href="../index.html">
