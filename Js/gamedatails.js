@@ -2,7 +2,6 @@ const gameInfo = async () => {
   const id = localStorage.getItem('id');
   const result = await fetch(`http://localhost:3000/games/${id}`);
   const info = await result.json();
-  console.log(info);
   return info;
 };
 
