@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/image/logo/sin-fondo-blanco.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="../Styles/style.css">
-  <link rel="stylesheet" href="../Styles/admin.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/admin.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <title>Administrador</title>
 </head>
@@ -152,10 +153,10 @@
       </ul> 
     </div>
     <div class="text-center col-12 col-md col-sm-6 mb-2"> 
-      <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Info sin definir</h5></a>
+      <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Nosotros</h5></a>
       <ul class="list-unstyled text-small">
-        <li class="mb-1"><a href="../pages/nosotros.html" class="fs-lighter fst-italic text-light text-decoration-none">¿Quienes somos?</a></li>
-        <li class="mb-1"><a href="../pages/contacto.html" class="fs-lighter fst-italic text-light text-decoration-none">Contacto</a></li>
+        <li class="mb-1"><a href="./nosotros.html" class="fs-lighter fst-italic text-light text-decoration-none">¿Quienes somos?</a></li>
+        <li class="mb-1"><a href="./contacto.html" class="fs-lighter fst-italic text-light text-decoration-none">Contacto</a></li>
       </ul>
     </div>
     <div class="col-xl-4 col-sm-6 col-md-8 col-lg-3 mb-3 text-light">
@@ -163,7 +164,9 @@
           <h5>Sucríbete para más novedades!</h5>
           <p>¡Para recibir novedades sobre nuevos lanzamientos y actualizaciones, suscríbete!</p>
         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-          <label for="emailSub" class="visually-hidden">Correo Electrónico</label>
+          <label for="emailSub" class="visually-hidden"><script>
+            window.document.write("sdads" + roleuser);
+          </script></label>
           <input id="emailSub" type="text" class="form-control" placeholder="Correo Electrónico">
           <a href=""><button class="btn btn-secondary" type="button">Suscríbete</button></a>
         </div>
@@ -175,7 +178,7 @@
   </div>
 </footer>
 
-<script src="../Js/admin.js"></script>
+<script src="../js/admin.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
