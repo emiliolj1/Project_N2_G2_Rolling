@@ -1,5 +1,5 @@
 .acciones{
-  transform: scale(1.1);
+  transform: scale(1);
   justify-content: space-evenly;
 }
 
@@ -11,8 +11,8 @@
   font-weight: normal;
 }
 
-body{
-  background-color: rgb(57, 11, 131);
+.weImg{
+  padding-top: 7  rem;
 }
 
 .texteBlue{

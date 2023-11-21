@@ -37,7 +37,7 @@
       "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_5320cc6b6c7fd39b41defe0570c3182df7065fd5.600x338.jpg?t=1700043631",
       "category": "sports, football",
       "description": "EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
-      "outstanding": true,
+      "outstanding": false,
       "published": true
     },
     {
@@ -47,7 +47,7 @@
       "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/ss_3da42391c6317205177248dea0a48ced89998a8d.600x338.jpg?t=1695060909",
       "category": "action, adventure",
       "description": "Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
-      "outstanding": false,
+      "outstanding": true,
       "published": true
     },
     {
@@ -56,7 +56,7 @@
       "image": "https://cdn.akamai.steamstatic.com/steam/apps/570940/header.jpg?t=1682652141",
       "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/570940/ss_626cc310dc9ac7fb146011582c864a35e5f3e381.600x338.jpg?t=1682652141",
       "category": "Adventure, Hard, Rol, Fantasy",
-      "description": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. Dark Souls Remastered incluye el juego principal y el contenido descargable 'Artorias of the Abyss'",
+      "description": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps.",
       "published": true,
       "outstanding": false
     },
@@ -76,7 +76,7 @@
       "image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1682651227",
       "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_da36c88ae35d4f20c9d221a79592b31c080521d2.116x65.jpg?t=1682651227",
       "category": "Adventure, Hard, Rol, Fantasy",
-      "description": "Adéntrate en un universo lleno de enemigos y entornos descomunales, un mundo en ruinas en el que las llamas se están apagando. Los jugadores se sumergirán en la atmósfera épica de un mundo de oscuridad gracias a un juego más rápido y una intensidad de combate ampliada. Tanto fans como recién llegados disfrutarán de una acción gratificante y gráficos absorbentes. Solo quedan las ascuas... ¡Prepárate una vez más para sumergirte en la oscuridad!",
+      "description": "Adéntrate en un universo lleno de enemigos y entornos descomunales, un mundo en ruinas en el que las llamas se están apagando. Los jugadores se sumergirán en la atmósfera épica de un mundo de oscuridad gracias a un juego más rápido y una intensidad de combate ampliada.",
       "published": true,
       "outstanding": false
     },
