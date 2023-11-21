@@ -68,39 +68,52 @@ getGames();
 //OUTSTANDING
 
 let juegoDestacadoId;
+
 toggleOutstanding = async (gameId) => {
   const juego = games.find(juego => juego.id === gameId);
   const idJuego = juego.id;
-  if (idJuego) {
-      juego.outstanding = !juego.outstanding
 
+  if (idJuego) {
+    // Desmarcar cualquier otro juego destacado
+    const juegoDestacadoAnterior = games.find(juego => juego.outstanding === true);
+    if (juegoDestacadoAnterior) {
+      juegoDestacadoAnterior.outstanding = false;
+      // Actualizar el juego destacado anterior en el servidor
+      await updateGame(juegoDestacadoAnterior.id, { outstanding: false });
     }
+
+    // Marcar el nuevo juego como destacado
+    juego.outstanding = true;
+    // Actualizar el juego actual en el servidor
+    await updateGame(idJuego, { outstanding: true });
+  }
+
+  // Actualiza la tabla con los datos actualizados desde la base de datos
+  // updateTable();
+};
+
+// Función para actualizar un juego en el servidor
+const updateGame = async (gameId, data) => {
   try {
-    const response = await fetch(`http://localhost:3000/games/${idJuego}`, {
+    const response = await fetch(`http://localhost:3000/games/${gameId}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ outstanding: juego.outstanding }),
+      body: JSON.stringify(data),
     });
 
-  if (!response.ok) {
-    console.log('No se pudo actualizar el estado en el servidor.');
+    if (!response.ok) {
+      console.log('No se pudo actualizar el estado en el servidor.');
+    }
+  } catch (error) {
+    console.error('Error al actualizar el estado en el servidor:', error);
   }
-  // Actualizar la tabla
-  await getGames();
-} catch (error) {
-  console.error('Error al actualizar el estado en el servidor:', error);
-}
-const juegoDestacado = games.find(juego => juego.outstanding === true);
-if (juegoDestacado && juegoDestacadoId !== gameId) {
-  juegoDestacado.outstanding = false;
-  await updateGame(juegoDestacado);
-}
-
-  // Actualiza la tabla con los datos actualizados desde el la base de datos
-  // updateTable();
 };
+
+// Ejemplo de uso
+toggleOutstanding(1); // Donde 1 es el ID del juego que quieres destacar
+
 
 
 //EDIT GAME
