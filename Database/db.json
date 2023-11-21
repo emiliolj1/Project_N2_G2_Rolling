@@ -37,8 +37,8 @@
       "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_5320cc6b6c7fd39b41defe0570c3182df7065fd5.600x338.jpg?t=1700043631",
       "category": "sports, football",
       "description": "EA SPORTS FC™ 24 te da la bienvenida a The World's Game: la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el motor mejorado de Frostbite™.",
-      "publish": true,
-      "outstanding": false
+      "outstanding": true,
+      "published": true
     },
     {
       "id": 2,
@@ -47,8 +47,8 @@
       "coverPage": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/ss_3da42391c6317205177248dea0a48ced89998a8d.600x338.jpg?t=1695060909",
       "category": "action, adventure",
       "description": "Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
-      "publish": true,
-      "outstanding": false
+      "outstanding": false,
+      "published": true
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
       "category": "Adventure, Hard, Rol, Fantasy",
       "description": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps. Dark Souls Remastered incluye el juego principal y el contenido descargable 'Artorias of the Abyss'",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 4,
@@ -68,7 +68,7 @@
       "category": "Adventure, Hard, Rol, Fantasy",
       "description": "DARK SOULS™ II: Scholar of the First Sin lleva la característica oscuridad de la franquicia y su apasionante jugabilidad a un nuevo nivel. Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 5,
@@ -78,7 +78,7 @@
       "category": "Adventure, Hard, Rol, Fantasy",
       "description": "Adéntrate en un universo lleno de enemigos y entornos descomunales, un mundo en ruinas en el que las llamas se están apagando. Los jugadores se sumergirán en la atmósfera épica de un mundo de oscuridad gracias a un juego más rápido y una intensidad de combate ampliada. Tanto fans como recién llegados disfrutarán de una acción gratificante y gráficos absorbentes. Solo quedan las ascuas... ¡Prepárate una vez más para sumergirte en la oscuridad!",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 6,
@@ -88,7 +88,7 @@
       "category": "Adventure, Survival, Rol",
       "description": "Un brutal juego de supervivencia y exploración multijugador, ambientado en un purgatorio generado de forma procedural e inspirado en la cultura vikinga. ¡Lucha, construye y conquista tu viaje en una saga digna de la bendición de Odin!",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 7,
@@ -98,7 +98,7 @@
       "category": "Adventure, Rol, Accion",
       "description": "Una historia épica sobre familia, venganza y conspiración cuyo telón de fondo es una perfecta, pero aun así brutal, Italia del Renacimiento.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 8,
@@ -108,7 +108,7 @@
       "category": "Adventure, Rol, Action",
       "description": "Vive y respira como Ezio, un legendario Maestro Asesino, en su continua lucha contra la poderosa Orden de los Templarios. Deberá viajar hasta la más increíble de las ciudades de Italia, Roma, centro de poder, avaricia y corrupción, para atacar el corazón del enemigo.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 9,
@@ -118,7 +118,7 @@
       "category": "Adventure, Survival, Action",
       "description": "Como único superviviente de un accidente de avión de pasajeros, te encuentras en un bosque misterioso luchando por sobrevivir contra una sociedad de mutantes caníbales. Construye, explora y sobrevive en este aterrador simulador de terror y supervivencia en primera persona.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 10,
@@ -128,7 +128,7 @@
       "category": "Adventure, Survival, Rol",
       "description": "Juega como un hombre o una mujer desnudo, congelándote y muriéndote de hambre en una isla misteriosa. Debes cazar, cosechar, crear objetos, cultivar, y construir refugios para sobrevivir. Usa tu habilidad y astucia para matar, domesticar, criar y cabalgar dinosaurios y otras criaturas primitivas.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 11,
@@ -138,7 +138,7 @@
       "category": "Simulation, Aventura, Multiplayer, Realistic, Open World",
       "description": "Desde planeadores y helicópteros hasta aviones de fuselaje ancho, vuele aviones muy detallados y precisos en Microsoft Flight Simulator 40th Anniversary Edition. El mundo está a tu alcance.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 12,
@@ -148,7 +148,7 @@
       "category": "Economy, Realistic, Open World",
       "description": "Construye una ciudad y haz que prospere con el constructor de ciudades más realista. Pon a prueba tu creatividad y tu resolución de problemas para construir a una escala que nunca experimentaste. Con su simulación y su economía, crea mundos sin límites.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 13,
@@ -158,10 +158,17 @@
       "category": "Open World, Aventura, Rol",
       "description": "Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City, una peligrosa megalópolis obsesionada con el poder, el glamur y las incesantes modificaciones corporales.",
       "published": true,
-      "outstanding": true
+      "outstanding": false
     },
     {
       "id": 14,
+      "title": "Call of Duty®",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1699636249",
+      "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/ss_214fb6c77b37e18a85dc65739317cc3e9ea68f07.600x338.jpg?t=1699636249",
+      "category": "Multiplayer, Action, Realistic",
+      "description": "Te damos la bienvenida a Call of Duty® HQ, el hogar de Call of Duty®: Modern Warfare® III, Call of Duty®: Modern Warfare® II y Warzone™.",
+      "published": true,
+      "outstanding": false
       "title": "Call of Duty®",
       "image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1699636249",
       "coverPage": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/ss_214fb6c77b37e18a85dc65739317cc3e9ea68f07.600x338.jpg?t=1699636249",
