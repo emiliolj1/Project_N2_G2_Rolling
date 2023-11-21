@@ -1,7 +1,8 @@
 const searchButton = async () => {
+  const card = document.getElementById('searchGameContainer');
+  card.innerHTML = ``;
   const searchInput = document.getElementById('searchInput').value;
-  console.log(searchInput)
-  const card = document.getElementById('searchGameContainer')
+  console.log(searchInput);
   await fetch(`http://localhost:3000/games?title_like=${searchInput}`)
   .then(response => response.json())
   .then(
@@ -9,7 +10,7 @@ const searchButton = async () => {
       result.forEach((element) => {
      
         card.innerHTML += `
-        <div class="col pb-3">
+        <div class="col-4 pb-3">
           <div class="card">
             <div class="card-body">
               <img src="${element.image}" class="card-img-top" alt="${element.title}"> 

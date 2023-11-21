@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/image/logo/sin-fondo-blanco.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../Styles/style.css">
-  <title>Document</title>
+  <title>Buscar juego</title>
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg p-3 navColor text-light fixed-top">
       <div class="container-fluid">
-        <a href="./index.html"><img src="../assets/image/logo/sin-fondo-blanco.png" alt="" class="img-resposive" width="80px" height="80px"></a>
+        <a href="../index.html"><img src="../assets/image/logo/sin-fondo-blanco.png" alt="" class="img-resposive" width="80px" height="80px"></a>
         <a><p class="my-3 fs-sm-3 h2 title">Infinity Games</p></a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon "></span>
@@ -89,11 +91,11 @@
           <button onclick="searchButton()" class="btn btn-secondary" type="button" style="background-color: #606060;">Buscar</button>
         </form>
       </div>
-      <div class="container" id="searchGameContainer">
+      <div class="container row mx-auto" id="searchGameContainer">
       </div>
     </div>
   </main>
-  <footer class="navColor py-3 pt-4 px-4 pt-md-5 border-top bottom-0 align-items-center w-100 footerContainer">
+  <footer class="navColor py-3 pt-4 px-4 pt-md-5 border-top bottom-0 align-items-center w-100">
     <div class="row">
       <div class="d-flex flex-column align-items-center col-12 col-md col-lg mb-3">
         <a href="../index.html"><img src="../assets/image/logo/sin-fondo-blanco-completo.png" alt="Infinity Games Logo" class="img-resposive" width="120px" height="100px"></a>
@@ -104,30 +106,10 @@
         </ul> 
       </div>
       <div class="text-center col-12 col-md col-sm-6 mb-2"> 
-        <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Info sin definir</h5></a>
+        <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Nosotros</h5></a>
         <ul class="list-unstyled text-small">
-          <li class="mb-1"><a href="./pages/nosotros.html" class="fs-lighter fst-italic text-light text-decoration-none">¿Quienes somos?</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light text-decoration-none">Contacto</a></li>
-        </ul>
-      </div>
-      <div class="text-center col-12 col-md col-sm-6 mb-2">
-        <a href="" class="text-decoration-none"><h5 class=" text-light fw-bold fs-4">Info sin definir</h5></a> 
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-        </ul>
-      </div>
-      <div class="text-center col-12 col-md col-sm-6 mb-2">
-        <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Info sin definir</h5></a>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
-          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="./nosotros.html" class="fs-lighter fst-italic text-light text-decoration-none">¿Quienes somos?</a></li>
+          <li class="mb-1"><a href="./contacto.html" class="fs-lighter fst-italic text-light text-decoration-none">Contacto</a></li>
         </ul>
       </div>
       <div class="col-xl-4 col-sm-6 col-md-8 col-lg-3 mb-3 text-light">
@@ -135,9 +117,11 @@
             <h5>Sucríbete para más novedades!</h5>
             <p>¡Para recibir novedades sobre nuevos lanzamientos y actualizaciones, suscríbete!</p>
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="emailSub" class="visually-hidden">Correo Electrónico</label>
-            <input id="emailSub" type="text" class="form-control" placeholder="Correo Electrónico">
-            <a href=""><button class="btn btn-secondary" type="button">Suscríbete</button></a>
+            <label for="emailSub" class="visually-hidden"><script>
+              window.document.write("sdads" + roleuser);
+            </script></label>
+            <input id="emailSub" type="text" class="form-control" placeholder="Correo Electrónico" required minlength="8" maxlength="35">
+            <a href="./page404.html"><button class="btn btn-secondary" type="button">Suscríbete</button></a>
           </div>
         </form>
       </div>
