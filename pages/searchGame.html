@@ -9,31 +9,84 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg p-3 navColor text-light">
+    <nav class="navbar navbar-expand-lg p-3 navColor text-light fixed-top">
       <div class="container-fluid">
-        <a href="../index.html"><img src="../assets/image/logo/sin-fondo-blanco.png" alt="" class="img-resposive" width="80px" height="80px"></a>
-        <a><p class="m-3 fs-sm-3 h2 title ">Infinity Games</p></a>
+        <a href="./index.html"><img src="../assets/image/logo/sin-fondo-blanco.png" alt="" class="img-resposive" width="80px" height="80px"></a>
+        <a><p class="my-3 fs-sm-3 h2 title">Infinity Games</p></a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon "></span>
         </button>
         <div class=" collapse navbar-collapse mx-auto" id="navbarSupportedContent">
           <div class="d-flex ms-auto">
-            <a href="../pages/loggin.html"><button type="button" class="btn btn-secondary me-2 ms-auto fw-bold">Ingresar</button></a>
-            <a href="../pages/registro.html"><button type="button" class="btn btn-secondary me-2 ms-auto fw-bold">Registrarse</button></a>
+            <a href="./searchGame.html"><button class="rounded-5 btn btn-secondary" style="background-color: #606060;"><span class="bi bi-search"></span></button></a>
+            <a href="./login.html" class="text-decoration-none px-2">
+              <button class="ingresarBtn">
+                <span class="span-mother">
+                    <span>I</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>s</span>
+                    <span>a</span>
+                    <span>r</span>
+                </span>
+                <span class="span-mother2">
+                    <span>I</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>s</span>
+                    <span>a</span>
+                    <span>r</span>
+                </span>
+              </button>
+            </a>
+            <a href="./registro.html" class="text-decoration-none">
+              <button class="registerBtn">
+                <span class="span-mother1">
+                    <span>R</span>
+                    <span>e</span>
+                    <span>g</span>
+                    <span>i</span>
+                    <span>s</span>
+                    <span>t</span>
+                    <span>r</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>s</span>
+                    <span>e</span>
+                </span>
+                <span class="span-mother3">
+                    <span>R</span>
+                    <span>e</span>
+                    <span>g</span>
+                    <span>i</span>
+                    <span>s</span>
+                    <span>t</span>
+                    <span>r</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>s</span>
+                    <span>e</span>
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <main>
+  <main class="backMain">
     <div class="heightContainer py-5">
-      <div class="text-center m-5">
-        <h1>Búsqueda de juegos🎮</h1>
+      <div class="text-center m-5 text-light">
+        <h1>Búsqueda de juegos 🎮</h1>
       </div>
       <div class="container px-5 pb-5">
         <form class="d-flex" role="search">
-          <input id="searchInput" class="form-control me-2" type="search" value="" placeholder="Search" aria-label="Search">
-          <button onclick="searchButton()" class="btn btn-outline-success" type="button">Search</button>
+          <input id="searchInput" class="form-control me-2" type="search" value="" placeholder="Ingresa el nombre..." aria-label="Search">
+          <button onclick="searchButton()" class="btn btn-secondary" type="button" style="background-color: #606060;">Buscar</button>
         </form>
       </div>
       <div class="container" id="searchGameContainer">

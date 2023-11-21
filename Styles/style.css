@@ -352,3 +352,7 @@ button:hover .span-mother3 span {
 .footerTamaño{
   height: 100vh;
 }
+
+.btnlupa{
+  background-color: #606060;
+}
