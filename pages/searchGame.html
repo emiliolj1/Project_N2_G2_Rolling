@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg p-3 navColor text-light">
+      <div class="container-fluid">
+        <a href="../index.html"><img src="../assets/image/logo/sin-fondo-blanco.png" alt="" class="img-resposive" width="80px" height="80px"></a>
+        <a><p class="m-3 fs-sm-3 h2 title ">Infinity Games</p></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class=" collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <div class="d-flex ms-auto">
+            <a href="../pages/loggin.html"><button type="button" class="btn btn-secondary me-2 ms-auto fw-bold">Ingresar</button></a>
+            <a href="../pages/registro.html"><button type="button" class="btn btn-secondary me-2 ms-auto fw-bold">Registrarse</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="heightContainer py-5">
+      <div class="text-center m-5">
+        <h1>Búsqueda de juegos🎮</h1>
+      </div>
+      <div class="container px-5 pb-5">
+        <form class="d-flex" role="search">
+          <input id="searchInput" class="form-control me-2" type="search" value="" placeholder="Search" aria-label="Search">
+          <button onclick="searchButton()" class="btn btn-outline-success" type="button">Search</button>
+        </form>
+      </div>
+      <div class="container" id="searchGameContainer">
+      </div>
+    </div>
+  </main>
+  <footer class="navColor py-3 pt-4 px-4 pt-md-5 border-top bottom-0 align-items-center w-100 footerContainer">
+    <div class="row">
+      <div class="d-flex flex-column align-items-center col-12 col-md col-lg mb-3">
+        <a href="../index.html"><img src="../assets/image/logo/sin-fondo-blanco-completo.png" alt="Infinity Games Logo" class="img-resposive" width="120px" height="100px"></a>
+        <ul class="nav px-auto d-flex">
+          <li class="m-2 fs-4"><a href="#"><i class="bi bi-instagram text-light"></i></a></li>
+          <li class="m-2 fs-4"><a href="#"><i class="bi bi-facebook text-light"></i></a></li>
+          <li class="m-2 fs-4"><a href="#"><i class="bi bi-twitter-x text-light"></i></a></li>
+        </ul> 
+      </div>
+      <div class="text-center col-12 col-md col-sm-6 mb-2"> 
+        <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Info sin definir</h5></a>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a href="./pages/nosotros.html" class="fs-lighter fst-italic text-light text-decoration-none">¿Quienes somos?</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="text-center col-12 col-md col-sm-6 mb-2">
+        <a href="" class="text-decoration-none"><h5 class=" text-light fw-bold fs-4">Info sin definir</h5></a> 
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+        </ul>
+      </div>
+      <div class="text-center col-12 col-md col-sm-6 mb-2">
+        <a href="" class="text-decoration-none"><h5 class="text-light fw-bold fs-4">Info sin definir</h5></a>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+          <li class="mb-1"><a href="" class="fs-lighter fst-italic text-light ">#</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-sm-6 col-md-8 col-lg-3 mb-3 text-light">
+        <form>
+            <h5>Sucríbete para más novedades!</h5>
+            <p>¡Para recibir novedades sobre nuevos lanzamientos y actualizaciones, suscríbete!</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="emailSub" class="visually-hidden">Correo Electrónico</label>
+            <input id="emailSub" type="text" class="form-control" placeholder="Correo Electrónico">
+            <a href=""><button class="btn btn-secondary" type="button">Suscríbete</button></a>
+          </div>
+        </form>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top text-light ">
+        <p>© 2023 Infinity Games, Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="../Js/searchGame.js"></script>
+</body>
+</html>
