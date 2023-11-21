@@ -31,6 +31,15 @@ const gameDetails = async () => {
               </a>
             </div>
           </div>
+          <div class="col-12 text-light mx-4">
+            <p><strong>Categoria: </strong>${game.category}</p>
+            <h6 class="fw-bold fs-3">Recomendado:</h6>
+            <ul>
+              <li>Procesador: Intel Core i5 9400f a 3,2 GHz (4 CPU)/AMD X8 FX-8350 a 4 GHz (8 CPU).</li>
+              <li>Memoria: 16 GB de RAM</li>
+              <li>Gráficos: NVIDIA GTX 1650 4 GB/AMD Rx590 4 GB.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
