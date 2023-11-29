@@ -1,9 +1,16 @@
-main {
+:root{
+  --fondoNavbar: rgba(89, 20, 201);
+  /*--fondoPagina: rgba(59, 19, 255);*/
+  --fondoPagina: rgb(2, 0, 32);
+}
+
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  background-color: var(--fondoPagina)
 }
 .card-we{ 
   display: flex;
@@ -36,3 +43,7 @@ transform: scale(1.1);
 .p404Img{
   padding-top: 8.5rem;
 }
+
+/* .footerf{
+  height: 100vh;
+} */
