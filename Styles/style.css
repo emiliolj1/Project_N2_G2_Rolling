@@ -37,6 +37,10 @@
   background-color: var(--fondoPagina);
 }
 
+.backMain1{
+  background-color: var(--fondoPagina);
+}
+
 .button {
   position: relative;
   width: 156px;

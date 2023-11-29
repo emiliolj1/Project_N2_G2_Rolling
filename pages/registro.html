@@ -23,39 +23,44 @@
     </nav>
   </header>
 </section>
-<main>
+
   <!-- Registro -->
-  <section class="container justify-content-center align-items-center weImg">
+<main class="backMain text-light mb-0 py-0">
+  <section class="container justify-content-center align-items-center weImg ">
     <section class="justify-content-center my-2 py-2">
       <h2>Registrarse</h2>
       <form id="registerForm">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ingresar un nombre</label>
           <input type="" class="form-control" id="nombre" value=""  maxlength="16" minlength="4" required>
-          <div id="passwordHelpBlock" class="form-text">
+          <div id="passwordHelpBlock" class="form-text text-light">
            Tu nombre debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacios, caracteres especiales o emojis.
           </div>
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ingresar un Email</label>
           <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" value="" maxlength="25" minlength="4" required>
-          <div id="passwordHelpBlock" class="form-text">
+          <div id="passwordHelpBlock" class="form-text text-light">
             Tu email debe de tener un minimo de 4 y un maximo de 25 caracteres y no debe contener espacios o emojis.
           </div>
-        </div>
+        <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Ingresar una Contraseña</label>
           <input type="password" class="form-control" id="Password" value="" maxlength="16" minlength="4" required>
-          <div id="passwordHelpBlock" class="form-text">
+          <div id="passwordHelpBlock" class="form-text text-light">
             Tu contraseña debe de tener un minimo de 4 y un maximo de 16 caracteres y no debe contener espacion, caracteres especiales o emojis.
           </div>
         </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Validar contraseña</label>
+          <input type="" class="form-control" id="contraseña" value=""  maxlength="16" minlength="4" required>
+        </div>
         <div class="py-3">
-          <button type="submit" class="btn btn-secondary" onclick="enviarMail()">Crear Usuario</button>
+          <button type="submit" class="btn btn-primary" onclick="enviarMail()">Crear Usuario</button>
         </div>
       </form>
     </section>
   </section>
-  
+</main>
   <!-- Modal -->
   <div class="modal fade" id="ModalFuncional">
     <div class="modal-dialog">
@@ -71,6 +76,21 @@
           <a href="../index.html">
             <button type="button" class="btn btn-primary">Ir a la Pagina Principal</button>
           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalError">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5">Error</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          tu contraseña no coincide.
+        </div>
+        <div class="modal-footer">
         </div>
       </div>
     </div>
